@@ -5,10 +5,14 @@ import { FaDribbble } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import {FaDiscord} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
+import {FaLinkedin} from "react-icons/fa";
+
 
 const Navbar = () => {
   return (
-    <section class="py-2 bg-gray-700 text-white ">
+<>
+
+    <section class="py-2 bg-gray-800 text-white ">
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap items-center justify-between -mx-4">
           <div class="w-full md:w-auto px-4 mb-14 md:mb-0">
@@ -19,59 +23,75 @@ const Navbar = () => {
           <div class="w-full md:w-auto px-4">
             <div class="flex items-start flex-wrap">
               <a
-                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border border-width: 1px  hover:bg-black focus:ring-2  border-orange-800 "
+                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
                 href="#"
               >
                 <FaGithub />
               </a>
 
               <a
-                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border border-width: 1px  hover:bg-black focus:ring-2  border-orange-800 "
+                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
                 href="#"
               >
                 <FaDribbble />
               </a>
 
               <a
-                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border border-width: 1px  hover:bg-black focus:ring-2  border-orange-800 "
+                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
                 href="#"
               >
                 <FaTwitter />
               </a>
-
               <a
-                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border border-width: 1px  hover:bg-black focus:ring-2  border-orange-800 "
+                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
                 href="#"
               >
                 <FaYoutube />
               </a>
-
               <a
-                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border border-width: 1px  hover:bg-black focus:ring-2  border-orange-800 "
+                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
                 href="#"
               >
                 <FaDiscord />
               </a>
-
-
               <a
-                class="inline-block py-2 px-5 mr-2  rounded-xl text-white font-small tracking-tighter  text-center border border-width: 1px  hover:bg-black focus:ring-2 border-orange-800"
+                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
                 href="#"
               >
-                Link
+                <FaLinkedin />
               </a>
 
               <a
-                class="inline-block py-2 px-5 mr-2  rounded-xl text-white font-small tracking-tighter  text-center border border-width: 1px  hover:bg-black focus:ring-2 border-orange-800"
+                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
                 href="#"
               >
-                Link
+                <FaFacebook />
               </a>
+
+
+              <a
+                class="inline-block py-1 px-2 mr-2   rounded-lg text-white  border-2   hover:bg-red-800  border-orange-800 "
+                href="#"
+              >
+                Blog
+              </a>
+
+        
+
             </div>
           </div>
         </div>
       </div>
+
+
+
     </section>
+
+
+
+
+
+</>
   );
 };
 

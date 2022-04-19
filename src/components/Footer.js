@@ -6,7 +6,7 @@ const Footer = () => {
     
 <>
 
-<section class="relative py-20 2xl:py-40 bg-gray-800 mt-5">
+<section class="relative py-20 2xl:py-40 bg-gray-800 ">
   <img class="hidden lg:block absolute top-0 left-0 w-2/5" src="zospace-assets/images/map.svg" alt=""/>
   <img class="hidden lg:block absolute top-0 left-0 mt-40 ml-40" src="zospace-assets/images/office-tag.svg" alt=""/>
   <div class="relative container px-4 mx-auto">
