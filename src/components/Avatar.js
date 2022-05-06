@@ -8,12 +8,12 @@ const Avatar = () => {
 
 
 <div class="flex items-center justify-center bg-gradient-to-br from-grey-500 to-grey-800">
-   <div class="bg-white text-center rounded-xl border shadow-sm p-10 max-w-4xl m-2">
+   <div class="bg-white text-center p-20">
      <img class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" 
      
-     src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp"
+     src="./ms.jfif" alt="me"/>
      
-     alt="product designer"/>
+    
      <h1 class="text-lg text-gray-700"> Moses Imbahale </h1>
      <h3 class="text-sm text-gray-400 "> Software Engineer /ML </h3>
      <p class=" text-gray-700 mt-4 text-xs"> 

@@ -8,20 +8,54 @@ import {FaTwitter} from "react-icons/fa";
 import {FaLinkedin} from "react-icons/fa";
 
 
+
+import { DiCode } from "react-icons/di";
+
+
 const Navbar = () => {
   return (
 <>
 
     <section class="py-2 bg-gray-800 text-white ">
+
+    
+
+
+
+
+
       <div class="container px-4 mx-auto">
-        <div class="flex flex-wrap items-center justify-between -mx-4">
+        <div class="flex flex-wrap items-center justify-between -mx-5">
+
+        <div  className="inline-block p-3  text-white   bg-red-800" >
+            <DiCode />         
+          </div>
+
+
+          <div class="p-">
+                <img src="./" class="" alt=""/>
+            </div>
+            
+
           <div class="w-full md:w-auto px-4 mb-14 md:mb-0">
-            <h2 class="">Product analysis</h2>
-            <p class="">Achieve your goals and increase profits</p>
+
+
+            <h2 class=""> kenyan based software engineer</h2>
+            <p class="">It is better to fail in originality than to succeed in imitation..</p>
+
+
           </div>
 
           <div class="w-full md:w-auto px-4">
             <div class="flex items-start flex-wrap">
+              
+            <a
+                class="bg-gray-900 inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
+                href="#"
+              >
+                <FaLinkedin />
+              </a>
+              
               <a
                 class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
                 href="#"
@@ -54,12 +88,7 @@ const Navbar = () => {
               >
                 <FaDiscord />
               </a>
-              <a
-                class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
-                href="#"
-              >
-                <FaLinkedin />
-              </a>
+          
 
               <a
                 class="inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "

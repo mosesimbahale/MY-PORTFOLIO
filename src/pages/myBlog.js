@@ -1,6 +1,6 @@
 import React from 'react'
 
-const efficientProgramming = () => {
+const myBlog = () => {
   return (
     <div>
         <h1>Figma designs</h1>
@@ -11,4 +11,4 @@ const efficientProgramming = () => {
   )
 }
 
-export default efficientProgramming;
+export default myBlog;

@@ -555,7 +555,7 @@ const Projects = () => {
                 </svg>
               </span>
               <div>
-                <p class="text-xs font-bold">E-commerce blog</p>
+                <p class="text-xs font-bold"> Blog </p>
               </div>
             </div>
             <div>

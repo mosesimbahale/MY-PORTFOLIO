@@ -16,6 +16,8 @@ const Header = () => {
 
 <section class="relative pb-20 bg-gray-800 overflow-hidden">
 
+<h2 class="text-2xl font-bold text-center text-gray-100 m-5">My skills</h2>
+ 
 
 <div class="relative wrap overflow-hidden p-10 m-10 text-white">
   
@@ -54,7 +56,7 @@ Express
 
 <div class="relative wrap overflow-hidden p-10 m-10 text-white">
 <span class="text-md md:text-2xl  text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">
-Android and iOS Mobile development
+Mobile development
   </span>
 
 
@@ -111,6 +113,27 @@ React native, Angular & Ionic
 
 
 
+<hr className=''/>
+
+
+<div class="relative wrap overflow-hidden p-10 m-10 text-white" >
+
+
+<span class="text-md lg:text-2xl  text-transparent bg-clip-text bg-gradient-to-br from-red-200 to-purple-600">
+UI/UX design
+  </span>
+
+
+    <p class="text-center text-gray-400 text-sm">
+    Superior development skills include Solutions Architecture, Project Management, and Technical Documentation.
+
+programming languages
+
+Android development with kotlin
+
+React native, Angular & Ionic
+    </p>
+</div>
 
 
 
