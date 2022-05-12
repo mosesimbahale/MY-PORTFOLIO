@@ -29,10 +29,10 @@ const Home = () => {
     <Project />
     
     <Experience />
+
+    <Testimonials />
     
     <Certification />
-    
-    <Testimonials />
     
     <Footer />
     

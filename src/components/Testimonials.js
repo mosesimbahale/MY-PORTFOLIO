@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Testimonials = () => {
+const Achievement = () => {
   return (
    
     
@@ -59,8 +59,8 @@ const Testimonials = () => {
       <div class="hidden 2xl:block absolute bottom-0 w-3/5 mb-40 h-2 border-b border-white"></div>
       <div class="relative flex flex-wrap -mx-4">
         <div class="w-full lg:w-1/2 2xl:w-2/5 px-4 mb-12 mb:mb-0">
-          <span class="text-xl lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">
-            Testimonials
+          <span class="text-2xl lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">
+            Achievements
           </span>
           <h2 class="max-w-lg lg:max-w-md 2xl:max-w-none mt-7 mb-12 mb:mb-20 text-6xl lg:text-7xl 2xl:text-9xl text-white font-bold font-heading">
             Get perfect app for your project
@@ -210,7 +210,7 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials;
+export default Achievement;
 
 
 
