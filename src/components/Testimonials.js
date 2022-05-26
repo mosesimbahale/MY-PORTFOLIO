@@ -4,203 +4,25 @@ const Achievement = () => {
   return (
    
     
-    <section class="relative pb-20 bg-gray-800 overflow-hidden">
-    <div class="absolute bottom-0 inset-x-0 h-full bg-gradient-zospace-1"></div>
-    <div class="absolute bottom-0 inset-x-0 h-3/5 w-2full -ml-64 -mb-12 bg-gradient-zospace-2 transform -rotate-6"></div>
-    <nav class="relative">
-      <div class="flex py-8 px-4 lg:px-8 justify-between items-center">
-        <button class="p-2 navbar-burger">
-          <svg
-            class="w-10 h-3"
-            width="39"
-            height="13"
-            viewbox="0 0 39 13"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="39" height="2" rx="1" fill="#C4C4C4"></rect>
-            <rect
-              x="19"
-              y="11"
-              width="20"
-              height="2"
-              rx="1"
-              fill="#C4C4C4"
-            ></rect>
-          </svg>
-        </button>
-        <div class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
-          <a class="text-2xl text-white font-bold" href="#">
-            <img
-              class="h-7"
-              src="zospace-assets/logos/zospace-logo.svg"
-              alt=""
-              width="auto"
-            />
-          </a>
-        </div>
-        <div class="hidden lg:block">
-          <a
-            class="inline-block mr-10 text-lg text-white hover:text-gray-50 font-bold border-b border-gray-200"
-            href="#"
-          >
-            Try for free!
-          </a>
-          <a
-            class="inline-block px-12 py-4 text-white font-bold border border-gray-200 hover:border-white rounded-full"
-            href="#"
-          >
-            Sign Up
-          </a>
-        </div>
-      </div>
-    </nav>
-    <div class="relative container px-4 pt-12 md:pt-20 mx-auto">
-      <div class="hidden 2xl:block absolute bottom-0 w-3/5 mb-40 h-2 border-b border-white"></div>
-      <div class="relative flex flex-wrap -mx-4">
-        <div class="w-full lg:w-1/2 2xl:w-2/5 px-4 mb-12 mb:mb-0">
-          <span class="text-2xl lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">
-            Achievements
-          </span>
-          <h2 class="max-w-lg lg:max-w-md 2xl:max-w-none mt-7 mb-12 mb:mb-20 text-6xl lg:text-7xl 2xl:text-9xl text-white font-bold font-heading">
-            Get perfect app for your project
-          </h2>
-          <p class="mb-12 lg:mb-24 text-lg text-white opacity-90">
-            Discover how it works and start for free.
-          </p>
-          <div class="flex flex-wrap items-center">
-            <a
-              class="inline-block mr-14 px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200"
-              href="#"
-            >
-              Get started
-            </a>
-            <div class="w-full sm:w-auto mt-8 sm:mt-0 flex">
-              <button class="p-2">
-                <svg
-                  width="11"
-                  height="20"
-                  viewbox="0 0 11 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M10.7597 18.6258C11.0801 18.942 11.0801 19.4502 10.7597 19.7641C10.4393 20.0781 9.92164 20.0792 9.60124 19.7641L0.240298 10.569C-0.0801018 10.255 -0.0801017 9.74688 0.240298 9.43061L9.60124 0.235462C9.92164 -0.0784849 10.4393 -0.0784848 10.7597 0.235462C11.0801 0.550571 11.0801 1.05986 10.7597 1.37381L2.22247 10.0004L10.7597 18.6258Z"
-                    fill="white"
-                  ></path>
-                </svg>
-              </button>
-              <span class="py-2 px-4">
-                <svg
-                  width="2"
-                  height="24"
-                  viewbox="0 0 2 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1 0L1 24"
-                    stroke="white"
-                    stroke-opacity="0.24"
-                  ></path>
-                </svg>
-              </span>
-              <button class="p-2">
-                <svg
-                  width="11"
-                  height="20"
-                  viewbox="0 0 11 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M0.2403 1.37424C-0.0801003 1.05797 -0.0801003 0.549844 0.2403 0.235898C0.5607 -0.0780496 1.07836 -0.0792131 1.39876 0.235898L10.7597 9.43104C11.0801 9.74499 11.0801 10.2531 10.7597 10.5694L1.39876 19.7645C1.07836 20.0785 0.560699 20.0785 0.240298 19.7645C-0.0801019 19.4494 -0.0801019 18.9401 0.240298 18.6262L8.77752 9.99964L0.2403 1.37424Z"
-                    fill="white"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/2 2xl:w-3/5 px-4">
-          <img
-            class="w-full h-full object-contain"
-            src="zospace-assets/images/two-phones.png"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
-    <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
-      <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80"></div>
-      <nav class="relative flex flex-col py-8 h-full w-full bg-white overflow-y-auto">
-        <div class="flex items-center mb-16 pr-6">
-          <a class="ml-10 mr-auto text-2xl text-gray-800 font-bold" href="#">
-            <img
-              class="h-7"
-              src="zospace-assets/logos/zospace-dark-logo.svg"
-              alt=""
-              width="auto"
-            />
-          </a>
-        </div>
-        <div>
-          <ul>
-            <li class="mb-1 px-10">
-              <a
-                class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl"
-                href="#"
-              >
-                Product
-              </a>
-            </li>
-            <li class="mb-1 px-10">
-              <a
-                class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl"
-                href="#"
-              >
-                Story
-              </a>
-            </li>
-            <li class="mb-1 px-10">
-              <a
-                class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl"
-                href="#"
-              >
-                Features
-              </a>
-            </li>
-            <li class="mb-1 px-10">
-              <a
-                class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl"
-                href="#"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="mt-auto px-10">
-          <div class="pt-6">
-            <a
-              class="block mb-4 py-4 px-12 text-gray-800 text-center font-bold border border-gray-50 hover:border-gray-100 rounded-full"
-              href="#"
-            >
-              Sign in
-            </a>
-            <a
-              class="block py-4 px-12 text-white text-center font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200"
-              href="#"
-            >
-              Sign up
-            </a>
-          </div>
-          <p class="mt-6 mb-4 text-lg text-center">
-            <span>2021 &copy; Zospace. All rights reserved.</span>
-          </p>
-        </div>
-      </nav>
-    </div>
+    <section class=" pb-20 bg-white overflow-hidden p-10">
+
+<h2 class="text-2xl font-bold text-center text-gray-900 m-5">Achievements</h2>
+
+
+<p className='text-left' >
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions.
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+The software is provided "As is", without warranty of any kind, express or implied, including but not limited To the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall The authors or copyright holders be liable for any claim, damages or other liability, whether in an action of Contract, tort or otherwise, arising from, out of or in connection with the software or the use or other Dealings in the software.  
+
+Eget nisi posuere taciti dis tellus Ut. Vehicula lobortis, hymenaeos nascetur Fusce integer diam tellus. Tortor senectus adipiscing morbi. Nulla conubia at nisi laoreet nullam nunc. Parturient pretium maecenas pulvinar fringilla fames tempus eleifend. Dis magnis. Sapien Lobortis sollicitudin semper sociosqu torquent integer enim. A dictum diam ligula quisque tortor dapibus semper pulvinar volutpat at conubia. Mus elementum faucibus pede suspendisse lacinia. Sociis at. Dictum facilisis pede quam quam cras risus porta consectetuer molestie praesent sollicitudin faucibus faucibus cum ligula lectus. Sit nec nulla sociosqu accumsan sociis diam potenti ut mollis ultrices lobortis blandit amet rutrum mattis justo ultricies. Porta volutpat consectetuer euismod porttitor euismod, vitae. Nunc mollis condimentum magna sem auctor et et urna risus nibh ac congue aenean est nullam lobortis lorem mollis, in vel vestibulum dis convallis volutpat, et suspendisse convallis. Euismod faucibus tortor a sed. Senectus. Senectus facilisi neque adipiscing tortor. Cubilia imperdiet. Dictumst tellus nascetur rhoncus metus senectus tempus vitae gravida elementum diam. Fusce inceptos condimentum hymenaeos posuere urna pharetra euismod. Platea magna posuere ultricies dui vehicula tincidunt Fermentum ullamcorper elementum gravida nibh penatibus. Pretium, lacinia morbi velit ridiculus. Vestibulum gravida viverra. Egestas suspendisse. Mi faucibus faucibus. Feugiat. Vivamus neque venenatis nulla molestie tristique proin mus eleifend cras consequat lobortis proin tempor sociis. Vivamus ut interdum, cum. Accumsan vehicula tempor et elementum mollis bibendum et tristique nascetur Phasellus nam sodales et blandit ultricies vel nullam imperdiet suscipit volutpat maecenas class senectus a torquent phasellus. Tincidunt vel odio, dictum dictumst morbi massa in facilisis semper erat egestas duis class risus commodo magna. Diam magnis lacinia varius luctus phasellus praesent, enim molestie lacinia phasellus consectetuer fermentum eget risus cursus pede taciti inceptos eu condimentum.
+nullam nascetur donec.</p>
+
+
+   
   </section>
 
 

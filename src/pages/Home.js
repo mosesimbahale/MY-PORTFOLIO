@@ -1,47 +1,26 @@
-import React from 'react';
+//common imports
+import React from "react";
 
-import Skills from '../components/Skills';
-import Project from '../components/Project';
-import Navbar from '../components/Navbar';
-import Certification from '../components/Certification';
-import Footer from '../components/Footer';
-import Avatar from '../components/Avatar';
-import Experience from '../components/Experience';
-import Testimonials from '../components/Testimonials';
-
-
-
-
-
-
-
+//components imports
+import Sidebar from "../components/Sidebar";
+import Navbar from "../components/Navbar";
+import Combine from "../components/Combine";
 
 const Home = () => {
   return (
-    <div className='App'>
-    <Navbar />
-    
-    
-    <Avatar />
-    
-    <Skills />
-    
-    <Project />
-    
-    <Experience />
-
-    <Testimonials />
-    
-    <Certification />
-    
-    <Footer />
-    
-    
-    
-    
-    </div>
-    
-  )
-}
+    <div className="App">
+      <div className="relative">   
+      
+            <div class="fixed top-0 w-full ">
+              <Navbar />
+            </div>
+            
+            <Sidebar />
+            <Combine />
+            </div>
+        </div>
+      
+  );
+};
 
 export default Home;

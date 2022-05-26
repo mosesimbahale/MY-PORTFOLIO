@@ -5,7 +5,7 @@ const Experience = () => {
     <>
 
     
-    <section class="relative pb-20 bg-gray-800 overflow-hidden">
+    <section class=" pb-20 bg-gray-900 overflow-hidden">
 
     <h2 class="text-2xl font-bold text-center text-gray-100 m-5">Experience</h2>
  

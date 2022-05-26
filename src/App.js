@@ -1,4 +1,10 @@
+//common imports
+import './App.css';
+//import {Routes, Route } from 'react-router-dom';
 
+
+
+//Pages imports
 import eChamaas from './pages/eChamaas';
 import Home from './pages/Home';
 import myBlog from './pages/myBlog';
@@ -13,11 +19,6 @@ import errorPage from './pages/errorPage';
 
 
 
-import './App.css';
-{/*
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-*/
-}
 
 
 function App() {
@@ -25,16 +26,15 @@ function App() {
 
 
 <>
+
+
 <Home />
 
-
-
-
-
-{/*
-
-    <Router>
+   {/*Public routes
+    
       <Routes>
+
+
         <Route path="/" element = {<Home/>} />
         <Route path="/eChamaas" element = {<eChamaas/>} />
         <Route path="/myBlog" element = {<myBlog/>} />
@@ -45,11 +45,14 @@ function App() {
         <Route path="/smartPa" element = {<smartPa/>} />
         <Route path="/smartSecretary" element = {<smartSecretary/>} />
         <Route path="/smartWellness" element = {<smartWellness/>} />
+
+
         <Route path="*" element ={<errorPage/>} />
 
+
       </Routes>
-    </Router>
-  */}
+  
+*/}
 
 
 </>

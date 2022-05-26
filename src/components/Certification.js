@@ -4,7 +4,7 @@ const Certification = () => {
   return (
 
 
-<div class="relative wrap overflow-hidden p-10 h-full text-black">
+<div class=" wrap overflow-hidden p-10 h-full text-black bg-white">
 
 <h2 class="text-center text-2xl font-bold m-5">Certifications</h2>
     <hr />
@@ -17,14 +17,14 @@ const Certification = () => {
               <div class="bg-white col-start-1 col-end-1  pr-8 rounded-xl my-4 ml-auto">
                 <img class="leading-tight text-justify" src="https://img.icons8.com/ios/452/warranty.png"/>
                 <h3>Founder</h3>
-                <p class="font-bold font-serif text-lg">Person name</p>
+                <p class="font-bold  text-lg">Person name</p>
                </div>
 
 
                <div class="bg-white col-start-2  col-end-2  pr-8 rounded-xl my-4 ml-auto">
                 <img class="leading-tight text-justify" src="https://img.icons8.com/ios/452/warranty.png"/>
                 <h3>Director</h3>
-                <p class="font-bold font-serif text-lg">Person name</p>
+                <p class="font-bold  text-lg">Person name</p>
                </div>
 
 

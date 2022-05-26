@@ -1,4 +1,11 @@
 import React from "react";
+import {FaAndroid} from "react-icons/fa";
+import {BsCodeSlash} from "react-icons/bs";
+import {MdDataExploration} from "react-icons/md";
+import {GiVintageRobot} from "react-icons/gi";
+import {FaApple} from "react-icons/fa";
+
+
 
 const Header = () => {
   return (
@@ -14,54 +21,21 @@ const Header = () => {
 
 
 
-<section class="relative pb-20 bg-gray-800 overflow-hidden">
+<section class=" bg-gray-900 pb-20  ">
 
 <h2 class="text-2xl font-bold text-center text-gray-100 m-5">My skills</h2>
  
 
-<div class="relative wrap overflow-hidden p-10 m-10 text-white">
+<div class=" wrap overflow-hidden p-10 m-10 text-white   border border-gray-700 ">
   
-<span class="text-md lg:text-2xl text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-800">
-              Full-stack Web Development
+
+ <BsCodeSlash size="50px" color="brown" />
+<span class="text-md lg:text-2xl ">
+              Full-stack Web Development    -  MERN STACK
   </span>
 
     
-    <p class="text-center text-gray-400 text-sm">
- Superior development skills
-
-Include OOD, Agile Development, Solutions Architecture
-
-Project Management, and Technical Documentation.
-
-Exceptional ability to work in the following environments: Java Enterprise Edition, UNIX, Linux, and Windows.
-
-Strong decision maker, critical thinker, and creative designer with the ability to think around problems to unusual yet highly effective solutions.
-
-Excels in systems evaluation to identify system performance indicators and the best course of action to take to improve or correct performance based upon specific system goals.
-
-Js Libraries include
-React
-
-Angular
-
-Express
-    </p>
-</div>
-
-
-
-<hr className=''/>
-
-
-
-<div class="relative wrap overflow-hidden p-10 m-10 text-white">
-<span class="text-md md:text-2xl  text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">
-Mobile development
-  </span>
-
-
-
-    <p class="text-center text-gray-400 text-sm">
+    <p class="text-gray-300 text-sm text-left">
  Superior development skills
 
 Include OOD, Agile Development, Solutions Architecture
@@ -88,18 +62,58 @@ Express
 
 
 
-<hr className=''/>
+<div class=" wrap overflow-hidden p-10 m-10 text-white border border-red-900">
 
+<div className="flex">
+<FaAndroid  size="50px" color="gray"/> 
+<FaApple size="50px" color="gray"/>
+</div>
 
-<div class="relative wrap overflow-hidden p-10 m-10 text-white" >
-
-
-<span class="text-md lg:text-2xl  text-transparent bg-clip-text bg-gradient-to-br from-red-200 to-purple-600">
-Machine learning Engineering
+<span class="text-md md:text-2xl  ">
+Mobile development  -React Native 
   </span>
 
 
-    <p class="text-center text-gray-400 text-sm">
+
+    <p class=" text-gray-300 text-sm text-left">
+ Superior development skills
+
+Include OOD, Agile Development, Solutions Architecture
+
+Project Management, and Technical Documentation.
+
+Exceptional ability to work in the following environments: Java Enterprise Edition, UNIX, Linux, and Windows.
+
+Strong decision maker, critical thinker, and creative designer with the ability to think around problems to unusual yet highly effective solutions.
+
+Excels in systems evaluation to identify system performance indicators and the best course of action to take to improve or correct performance based upon specific system goals.
+
+Js Libraries include
+React
+
+Angular
+
+Express
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+<div class=" wrap overflow-hidden p-10 m-10 text-white border border-gray-700">
+
+<MdDataExploration size="50px" color="brown"/>
+<span class="text-md lg:text-2xl ">
+Data science
+  </span>
+
+
+    <p class="text-left text-gray-300 text-sm">
     Superior development skills include Solutions Architecture, Project Management, and Technical Documentation.
 
 programming languages
@@ -113,18 +127,17 @@ React native, Angular & Ionic
 
 
 
-<hr className=''/>
 
 
-<div class="relative wrap overflow-hidden p-10 m-10 text-white" >
+<div class=" wrap overflow-hidden p-10 m-10 text-white     border    border-red-900"   >
+
+<GiVintageRobot size="50px" color="gray"/>
+<span class="text-md lg:text-2xl ">
+ML intergration
+</span>
 
 
-<span class="text-md lg:text-2xl  text-transparent bg-clip-text bg-gradient-to-br from-red-200 to-purple-600">
-UI/UX design
-  </span>
-
-
-    <p class="text-center text-gray-400 text-sm">
+    <p class="text-left text-gray-300 text-sm">
     Superior development skills include Solutions Architecture, Project Management, and Technical Documentation.
 
 programming languages
