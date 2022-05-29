@@ -58,48 +58,44 @@ const Navbar = () => {
               
             <a
                 class="bg-gray-900 inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
-                href="#"
+                href="/" target="_blank"
               >
                 <FaLinkedin />
               </a>
               
               <a
                 class="bg-gray-900 inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
-                href="#"
+                href="/" target="_blank"
               >
                 <FaGithub />
               </a>
 
               <a
                 class="bg-gray-900 inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
-                href="#"
+                href="/" target="_blank"
               >
                 <FaDribbble />
               </a>
 
               <a
                 class="bg-gray-900 inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
-                href="#"
+                href="/" target="_blank"
               >
                 <FaTwitter />
               </a>
+
               <a
                 class="bg-gray-900 inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
-                href="#"
+                href="/" target="_blank"
               >
                 <FaYoutube />
               </a>
-              <a
-                class="bg-gray-900 inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
-                href="#"
-              >
-                <FaDiscord />
-              </a>
+         
           
 
               <a
                 class=" bg-gray-900 inline-block py-2 px-2 mr-3  rounded-3xl text-white  border-2   hover:bg-red-800  border-orange-800 "
-                href="#"
+                href="/" target="_blank"
               >
                 <FaFacebook />
               </a>
@@ -107,7 +103,16 @@ const Navbar = () => {
 
               <a
                 class="bg-gray-900 inline-block py-1 px-2 mr-2   rounded-lg text-white  border-2   hover:bg-red-800  border-orange-800 "
-                href="#"
+                href="/Projects" 
+              >
+                Projects
+              </a>
+
+
+
+              <a
+                class="bg-gray-900 inline-block py-1 px-2 mr-2   rounded-lg text-white  border-2   hover:bg-red-800  border-orange-800 "
+                href="/" target="_blank"
               >
                 Blog
               </a>
@@ -122,6 +127,16 @@ const Navbar = () => {
 
 
     </section>
+
+
+
+
+
+
+
+
+
+    
 
 
 

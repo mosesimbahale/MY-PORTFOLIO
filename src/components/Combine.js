@@ -3,7 +3,7 @@ import React from "react";
 
 //components imports
 import Skills from "./Skills";
-import Project from "./Project";
+
 import Certification from "./Certification";
 import Footer from "./Footer";
 import Avatar from "./Avatar";
@@ -26,14 +26,9 @@ const Combine = () => {
         <Testimonials />
 
         <Resume />
-
-
-        <Project />
+  
 
       
-
-        
-
         <Footer />
       </div>
     </div>

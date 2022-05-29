@@ -55,6 +55,12 @@ Angular
 
 Express
     </p>
+
+
+    <a href="/ProjectsWeb">
+    <button type="button" class="mx-20 my-10 px-6 py-2 border-2 border-red-800 text-red-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">View Projects</button>
+    </a>
+
 </div>
 
 
@@ -95,6 +101,12 @@ Angular
 
 Express
     </p>
+
+
+    <a href="/ProjectsMobile">
+    <button type="button" class="mx-20 my-10 inline-block px-6 py-2 border-2 border-gray-500 text-gray-300 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">View projects</button>
+    </a>
+
 </div>
 
 
@@ -122,6 +134,11 @@ Android development with kotlin
 
 React native, Angular & Ionic
     </p>
+
+    <a href="/ProjectsDS">
+    <button type="button" class="mx-20 my-10 px-6 py-2 border-2 border-red-800 text-red-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">View Projects</button>
+    </a>
+
 </div>
 
 
@@ -146,6 +163,11 @@ Android development with kotlin
 
 React native, Angular & Ionic
     </p>
+
+    <a href="/ProjectsML">
+    <button type="button" class="mx-20 my-10 inline-block px-6 py-2 border-2 border-gray-500 text-gray-300 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">View projects</button>
+    </a>
+
 </div>
 
 
@@ -154,16 +176,6 @@ React native, Angular & Ionic
 
 </section> 
 </>
-
-
-
-
-
-
-
-
-
-
 
 
 

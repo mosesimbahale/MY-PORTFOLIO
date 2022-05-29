@@ -1,10 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { HiOutlineFolderDownload } from 'react-icons/hi'
 
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+
+
+
+import { Document, Page } from 'react-pdf';
+
+
+
+
 const Resume = () => {
+
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
+
+
+
+
   return (
+
+
     
-<div className='p-10  bg-gray-900 text-center'> 
+<div className='p-10  bg-gray-400 text-center'>
+  
+
+    <div>
+      <Document file="./assets/doc/Moses's Resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+        <Page pageNumber={pageNumber} />
+      </Document>
+      <p>
+        Page {pageNumber} of {numPages}
+      </p>
+    </div>
+
+
+
+
+
+
 <h2 class=" text-2xl font-bold text-center text-white m-5">DownLoad Resume</h2>
        
 
@@ -25,12 +64,8 @@ Download
 
 
 
-
 </a>
 </div>
-
-
-
 
 
 </div>

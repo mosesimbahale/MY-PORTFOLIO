@@ -11,8 +11,9 @@ const Footer = () => {
 <>
 
 <section class=" py-20 2xl:py-40 bg-gray-900  ">
-  <img class="hidden lg:block absolute top-0 left-1 w-2/5" src="zospace-assets/images/map.svg" alt=""/>
-  <img class="hidden lg:block absolute top-0 left-0 mt-40 ml-40" src="zospace-assets/images/office-tag.svg" alt=""/>
+
+
+
   <div class="relative container px-4 mx-auto">
     <div class="text-center mb-20">
       <span class="text-lg text-blue-400 font-bold">Have a question?</span>
@@ -23,11 +24,19 @@ const Footer = () => {
         <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0">
           
           
-          <div class="bg-gray-600 rounded-b-lg">
-            <img class="h-100 w-full rounded-lg object-cover" src="./mefull.jpg" alt="me"/>
-            
+        <div class="bg-gray-600 rounded-b-lg">
+            <img class="h-100 w-full rounded-lg object-cover" src="./mefull.jpg" alt="me"/>           
           </div>
         </div>
+
+
+        
+
+
+
+
+
+
         <div class="w-full lg:w-1/2 px-4">
           <div class="py-6 px-8 mb-4 bg-gray-600 rounded-lg">
             <div class="flex items-center">
