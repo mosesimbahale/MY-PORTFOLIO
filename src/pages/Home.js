@@ -2,7 +2,7 @@
 import React from "react";
 
 //components imports
-import Sidebar from "../components/Sidebar";
+
 import Navbar from "../components/Navbar";
 import Combine from "../components/Combine";
 
@@ -11,11 +11,12 @@ const Home = () => {
     <div className="App">
       <div className="relative">   
       
-            <div class="fixed top-0 w-full ">
+            <div class="sticky top-0 ">
+
               <Navbar />
             </div>
             
-            <Sidebar />
+       
             <Combine />
             </div>
         </div>

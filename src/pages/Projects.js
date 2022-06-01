@@ -209,7 +209,7 @@ const Projects = () => {
 
 
 
-      <div className="py-8 w-full">
+      <div className="py-8 px-10 w-full ">
        
        
        
@@ -217,7 +217,7 @@ const Projects = () => {
 
 
 
-          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
+          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 ">
             <div className="flex items-center border-b border-gray-200 pb-6">
               <BsCodeSlash size="50" color="indigo" />
               <div className="flex items-start justify-between w-full">
@@ -547,7 +547,7 @@ const Projects = () => {
 
 
 
-
+{/*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/}
 
 
         
@@ -558,11 +558,12 @@ const Projects = () => {
 
           <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
             <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
+              <FaAndroid size="50" color="green" />
+              <FaApple size="50" color="black" />
               <div className="flex items-start justify-between w-full">
                 <div className="pl-3 w-full">
                   <p className="text-xl font-bold leading-5 text-gray-800">
-                    AUCTIONS
+                    Ma3
                   </p>
                   <p className="text-sm leading-normal pt-2 text-gray-500">
                     Web application for managing your daily tasks and routines.
@@ -616,8 +617,17 @@ const Projects = () => {
                   type="button"
                   class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
                 >
-                  Demo
+                  Android
                 </button>
+
+                
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Apple store
+                </button>
+
               </div>
             </div>
           </div>
@@ -636,11 +646,14 @@ const Projects = () => {
 
           <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
             <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
+             
+            <FaAndroid size="50" color="green" />
+              <FaApple size="50" color="black" />
+
               <div className="flex items-start justify-between w-full">
                 <div className="pl-3 w-full">
                   <p className="text-xl font-bold leading-5 text-gray-800">
-                    MATT
+                    SmartSecretary
                   </p>
                   <p className="text-sm leading-normal pt-2 text-gray-500">
                     Web application for managing your daily tasks and routines.
@@ -694,8 +707,17 @@ const Projects = () => {
                   type="button"
                   class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
                 >
-                  Demo
+                  Android
                 </button>
+
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Apple store
+                </button>
+
+
               </div>
             </div>
           </div>
@@ -722,7 +744,220 @@ const Projects = () => {
 
           <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
             <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
+
+            <FaAndroid size="50" color="green" />
+              <FaApple size="50" color="black" />
+
+              <div className="flex items-start justify-between w-full">
+                <div className="pl-3 w-full">
+                  <p className="text-xl font-bold leading-5 text-gray-800">
+                    Smart Booking
+                  </p>
+                  <p className="text-sm leading-normal pt-2 text-gray-500">
+                    Web application for managing your daily tasks and routines.
+                  </p>
+                </div>
+                <BiStar size="30px" />
+              </div>
+            </div>
+
+            <div className="px-2">
+              <h2 className="font-medium">Descriprion</h2>
+              <p className="text-sm leading-5 py-4 text-gray-600">
+                A group of people interested in dogecoin, the currency and a bit
+                of side for the meme and dof that we all know and love. These
+                cases are perfectly simple and easy to distinguish.
+              </p>
+            </div>
+
+            <div className="px-2">
+              <h2 className="font-medium">Specs</h2>
+              <p className="text-sm leading-5 py-4 text-gray-600">
+                A group of people interested in dogecoin, the currency and a bit
+                of side for the meme and dof that we all know and love. These
+                cases are perfectly simple and easy to distinguish.
+              </p>
+
+              <div className="flex">
+                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
+                  #React
+                </div>
+                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
+                  #Tailwind
+                </div>
+                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
+                  #Firebase
+                </div>
+                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
+                  #nano encryption
+                </div>
+              </div>
+
+              <div className="flex justify-between mt-4">
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Source code
+                </button>
+
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Android
+                </button>
+
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Apple store
+                </button>
+
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
+            <div className="flex items-center border-b border-gray-200 pb-6">
+                         
+              <FaAndroid size="50" color="green" />
+              <FaApple size="50" color="black" />
+
+              <div className="flex items-start justify-between w-full">
+                <div className="pl-3 w-full">
+                  <p className="text-xl font-bold leading-5 text-gray-800">
+                    eChamaas
+                  </p>
+                  <p className="text-sm leading-normal pt-2 text-gray-500">
+                    Web application for managing your daily tasks and routines.
+                  </p>
+                </div>
+                <BiStar size="30px" />
+              </div>
+            </div>
+
+            <div className="px-2">
+              <h2 className="font-medium">Descriprion</h2>
+              <p className="text-sm leading-5 py-4 text-gray-600">
+                A group of people interested in dogecoin, the currency and a bit
+                of side for the meme and dof that we all know and love. These
+                cases are perfectly simple and easy to distinguish.
+              </p>
+            </div>
+
+            <div className="px-2">
+              <h2 className="font-medium">Specs</h2>
+              <p className="text-sm leading-5 py-4 text-gray-600">
+                A group of people interested in dogecoin, the currency and a bit
+                of side for the meme and dof that we all know and love. These
+                cases are perfectly simple and easy to distinguish.
+              </p>
+
+              <div className="flex">
+                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
+                  #React
+                </div>
+                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
+                  #Tailwind
+                </div>
+                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
+                  #Firebase
+                </div>
+                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
+                  #nano encryption
+                </div>
+              </div>
+
+              <div className="flex justify-between mt-4">
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Source code
+                </button>
+
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Android
+                </button>
+
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Apple store
+                </button>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/}
+
+
+        <div className="lg:flex items-center justify-center w-full mt-10">
+
+          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
+            <div className="flex items-center border-b border-gray-200 pb-6">
+              <GiVintageRobot size="50" color="orange" />
               <div className="flex items-start justify-between w-full">
                 <div className="pl-3 w-full">
                   <p className="text-xl font-bold leading-5 text-gray-800">
@@ -800,11 +1035,11 @@ const Projects = () => {
 
           <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
             <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
+              <GiVintageRobot size="50" color="orange" />
               <div className="flex items-start justify-between w-full">
                 <div className="pl-3 w-full">
                   <p className="text-xl font-bold leading-5 text-gray-800">
-                    MATT
+                    SmartWellness
                   </p>
                   <p className="text-sm leading-normal pt-2 text-gray-500">
                     Web application for managing your daily tasks and routines.
@@ -868,24 +1103,6 @@ const Projects = () => {
 
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -914,11 +1131,11 @@ const Projects = () => {
 
           <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
             <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
+            <GiVintageRobot size="50" color="orange" />
               <div className="flex items-start justify-between w-full">
                 <div className="pl-3 w-full">
                   <p className="text-xl font-bold leading-5 text-gray-800">
-                    AUCTIONS
+                    Smart P.A
                   </p>
                   <p className="text-sm leading-normal pt-2 text-gray-500">
                     Web application for managing your daily tasks and routines.
@@ -992,7 +1209,7 @@ const Projects = () => {
 
           <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
             <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
+            <GiVintageRobot size="50" color="orange" />
               <div className="flex items-start justify-between w-full">
                 <div className="pl-3 w-full">
                   <p className="text-xl font-bold leading-5 text-gray-800">
@@ -1070,500 +1287,6 @@ const Projects = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-        <div className="lg:flex items-center justify-center w-full mt-10">
-
-
-
-          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
-            <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
-              <div className="flex items-start justify-between w-full">
-                <div className="pl-3 w-full">
-                  <p className="text-xl font-bold leading-5 text-gray-800">
-                    AUCTIONS
-                  </p>
-                  <p className="text-sm leading-normal pt-2 text-gray-500">
-                    Web application for managing your daily tasks and routines.
-                  </p>
-                </div>
-                <BiStar size="30px" />
-              </div>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Descriprion</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Specs</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-
-              <div className="flex">
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #React
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Tailwind
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Firebase
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #nano encryption
-                </div>
-              </div>
-
-              <div className="flex justify-between mt-4">
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Source code
-                </button>
-
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Demo
-                </button>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
-            <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
-              <div className="flex items-start justify-between w-full">
-                <div className="pl-3 w-full">
-                  <p className="text-xl font-bold leading-5 text-gray-800">
-                    MATT
-                  </p>
-                  <p className="text-sm leading-normal pt-2 text-gray-500">
-                    Web application for managing your daily tasks and routines.
-                  </p>
-                </div>
-                <BiStar size="30px" />
-              </div>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Descriprion</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Specs</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-
-              <div className="flex">
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #React
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Tailwind
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Firebase
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #nano encryption
-                </div>
-              </div>
-
-              <div className="flex justify-between mt-4">
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Source code
-                </button>
-
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Demo
-                </button>
-              </div>
-            </div>
-          </div>
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div className="lg:flex items-center justify-center w-full mt-10">
-
-
-
-          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
-            <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
-              <div className="flex items-start justify-between w-full">
-                <div className="pl-3 w-full">
-                  <p className="text-xl font-bold leading-5 text-gray-800">
-                    AUCTIONS
-                  </p>
-                  <p className="text-sm leading-normal pt-2 text-gray-500">
-                    Web application for managing your daily tasks and routines.
-                  </p>
-                </div>
-                <BiStar size="30px" />
-              </div>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Descriprion</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Specs</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-
-              <div className="flex">
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #React
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Tailwind
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Firebase
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #nano encryption
-                </div>
-              </div>
-
-              <div className="flex justify-between mt-4">
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Source code
-                </button>
-
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Demo
-                </button>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
-            <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
-              <div className="flex items-start justify-between w-full">
-                <div className="pl-3 w-full">
-                  <p className="text-xl font-bold leading-5 text-gray-800">
-                    MATT
-                  </p>
-                  <p className="text-sm leading-normal pt-2 text-gray-500">
-                    Web application for managing your daily tasks and routines.
-                  </p>
-                </div>
-                <BiStar size="30px" />
-              </div>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Descriprion</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Specs</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-
-              <div className="flex">
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #React
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Tailwind
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Firebase
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #nano encryption
-                </div>
-              </div>
-
-              <div className="flex justify-between mt-4">
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Source code
-                </button>
-
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Demo
-                </button>
-              </div>
-            </div>
-          </div>
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-        <div className="lg:flex items-center justify-center w-full mt-10">
-
-
-
-          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
-            <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
-              <div className="flex items-start justify-between w-full">
-                <div className="pl-3 w-full">
-                  <p className="text-xl font-bold leading-5 text-gray-800">
-                    AUCTIONS
-                  </p>
-                  <p className="text-sm leading-normal pt-2 text-gray-500">
-                    Web application for managing your daily tasks and routines.
-                  </p>
-                </div>
-                <BiStar size="30px" />
-              </div>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Descriprion</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Specs</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-
-              <div className="flex">
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #React
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Tailwind
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Firebase
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #nano encryption
-                </div>
-              </div>
-
-              <div className="flex justify-between mt-4">
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Source code
-                </button>
-
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Demo
-                </button>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <div className="lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 border border-gray-300 rounded-sm">
-            <div className="flex items-center border-b border-gray-200 pb-6">
-              <BsCodeSlash size="50" color="indigo" />
-              <div className="flex items-start justify-between w-full">
-                <div className="pl-3 w-full">
-                  <p className="text-xl font-bold leading-5 text-gray-800">
-                    MATT
-                  </p>
-                  <p className="text-sm leading-normal pt-2 text-gray-500">
-                    Web application for managing your daily tasks and routines.
-                  </p>
-                </div>
-                <BiStar size="30px" />
-              </div>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Descriprion</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-            </div>
-
-            <div className="px-2">
-              <h2 className="font-medium">Specs</h2>
-              <p className="text-sm leading-5 py-4 text-gray-600">
-                A group of people interested in dogecoin, the currency and a bit
-                of side for the meme and dof that we all know and love. These
-                cases are perfectly simple and easy to distinguish.
-              </p>
-
-              <div className="flex">
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #React
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Tailwind
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #Firebase
-                </div>
-                <div className="py-2 px-4 ml-2 text-xs leading-3 text-indigo-700 rounded-full bg-indigo-100">
-                  #nano encryption
-                </div>
-              </div>
-
-              <div className="flex justify-between mt-4">
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Source code
-                </button>
-
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Demo
-                </button>
-              </div>
-            </div>
-          </div>
-
-
-
-
-        </div>
 
 
 
