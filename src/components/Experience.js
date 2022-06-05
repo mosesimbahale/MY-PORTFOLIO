@@ -1,40 +1,129 @@
-import React from 'react'
+import React from "react";
+//Icons
+import {MdOutlineWork} from 'react-icons/md';
+import {IoMdSchool} from 'react-icons/io';
+import {AiFillStar} from 'react-icons/ai';
+
+//Vertical Timeline
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+
+
 
 const Experience = () => {
   return (
-    <>
-
-    
-    <section class=" pb-20 bg-gray-900 overflow-hidden">
-
-    <h2 class="text-2xl font-bold text-center text-gray-100 m-5">Experience</h2>
+    <div class="bg-gray-900">
  
-    <div class="flex justify-center">
-
-     
-   
-
-
-    <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg mt-5">
-      <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
-      <div class="p-6 flex flex-col justify-start">
-        <h5 class="text-gray-900 text-xl font-medium mb-2">This is my experience</h5>
-        <p class="text-gray-700 text-base mb-4">
-          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-        </p>
-        <p class="text-gray-600 text-xs">Last updated 3 mins ago</p>
-      </div>
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="2011 - present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<MdOutlineWork />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Creative Director
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <p>
+              Creative Direction, User Experience, Visual Design, Project
+              Management, Team Leading
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2010 - 2011"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<MdOutlineWork />}
+          >
+            <h3 className="vertical-timeline-element-title">Art Director</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              San Francisco, CA
+            </h4>
+            <p>
+              Creative Direction, User Experience, Visual Design, SEO, Online
+              Marketing
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2008 - 2010"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<MdOutlineWork />}
+          >
+            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Los Angeles, CA
+            </h4>
+            <p>User Experience, Visual Design</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2006 - 2008"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<MdOutlineWork />}
+          >
+            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              San Francisco, CA
+            </h4>
+            <p>User Experience, Visual Design</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="April 2013"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon={<IoMdSchool />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Content Marketing for Web, Mobile and Social Media
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Online Course
+            </h4>
+            <p>Strategy, Social Media</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="November 2012"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon={<IoMdSchool />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Agile Development Scrum Master
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Certification
+            </h4>
+            <p>Creative Direction, User Experience, Visual Design</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2002 - 2006"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon={<IoMdSchool />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Bachelor of Science in Interactive Digital Media Visual Imaging
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Bachelor Degree
+            </h4>
+            <p>Creative Direction, Visual Design</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+            icon={<AiFillStar />}
+          />
+        </VerticalTimeline>
+ 
     </div>
-  </div>
-
-
-  </section>
-
-
-
-</>
-
-  )
-}
+  );
+};
 
 export default Experience;

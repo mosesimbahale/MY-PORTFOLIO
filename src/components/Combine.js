@@ -13,7 +13,7 @@ import Resume from "./Resume";
 
 const Combine = () => {
   return (
-    <div className="App m-20">
+    <div className="App">
       <div className="flex flex-col justify-center ">
         <Avatar />
 
