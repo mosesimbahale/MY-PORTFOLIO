@@ -19,17 +19,17 @@ const Avatar = () => {
     
 
      <div className="text-center mt-2">
-                  <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 ">
+                  <h3 className="text-4xl font-semibold leading-normal mb-2  ">
                     Moses Imbahale
                   </h3>
               
                   
-                  <div className="flex justify-center m-2 text-gray-700 mt-2">
+                  <div className="flex justify-center m-2  mt-2">
                     < FaBriefcase size="20px"  />
-                    <p className='pl-4 font-semibold'>Software Engineer - Ml</p>
+                    <p className='pl-4 font-semibold'>Software Engineer</p>
                   </div>
 
-                  <div className="flex justify-center m-2 p-2 text-gray-700">
+                  <div className="flex justify-center m-2 p-2">
                     <FaUserGraduate  size="20px" />
                     <p className='pl-4 font-semibold'>University of KCA,  B.Sc. Software Engineering</p>
                   </div>
@@ -37,11 +37,26 @@ const Avatar = () => {
 
 
    
-     <p class=" text-gray-700 mt-4 text-left "> 
+     <p class="mt-4 text-left "> 
+     I have been practicing Software Engineering in the past 4 years buy 
      
-     I have over Five years of experience as a software engineer in development of applications. I excel in every stage of the life cycle of software development, including design creation, coding, debugging, testing, and maintenance. I am an expert in devising innovative and tailored solutions to assist businesses achieve their goals in a variety of industries. I have advanced skills and knowledge of leading programming tools with a strong background in mathematics, algorithms, and data-processing logic."
-     I have over Five years of experience as a software engineer in development of applications. I excel in every stage of the life cycle of software development, including design creation, coding, debugging, testing, and maintenance. I am an expert in devising innovative and tailored solutions to assist businesses achieve their goals in a variety of industries. I have advanced skills and knowledge of leading programming tools with a strong background in mathematics, algorithms, and data-processing logic."
-      </p>
+      I excel in every stage of the life cycle of software development, including design creation, coding, debugging, testing, and maintenance. I am an expert in devising innovative and tailored solutions to assist businesses and industries achieve their goals. I have advanced skills and knowledge of leading programming tools with a strong background in mathematics, algorithms, and data-processing logic."
+
+     </p>
+
+     <p class=" mt-4 text-left "> 
+     I have been practicing Software Engineering in the past 4 years buy 
+     
+      I excel in every stage of the life cycle of software development, including design creation, coding, debugging, testing, and maintenance. I am an expert in devising innovative and tailored solutions to assist businesses and industries achieve their goals. I have advanced skills and knowledge of leading programming tools with a strong background in mathematics, algorithms, and data-processing logic."
+
+     </p>
+
+     <p class=" mt-4 text-left "> 
+     I have been practicing Software Engineering in the past 4 years buy 
+     
+      I excel in every stage of the life cycle of software development, including design creation, coding, debugging, testing, and maintenance. I am an expert in devising innovative and tailored solutions to assist businesses and industries achieve their goals. I have advanced skills and knowledge of leading programming tools with a strong background in mathematics, algorithms, and data-processing logic."
+
+     </p>
     
 
 

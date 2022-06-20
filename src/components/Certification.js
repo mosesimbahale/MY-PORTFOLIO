@@ -6,7 +6,7 @@ const Certification = () => {
 
 <div class=" wrap overflow-hidden p-10 h-full text-black bg-white">
 
-<h2 class="text-center text-2xl font-bold m-5">Certifications</h2>
+<h2 class="text-center text-2xl font-bold m-5 ">Certifications</h2>
     <hr />
      <div class="container">
           <div

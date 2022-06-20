@@ -1,26 +1,47 @@
 //common imports
 import React from "react";
+import Sidebar from "../components/Sidebar";
+import Navbar from "../components/Navbar";
+
 
 //components imports
-
-import Navbar from "../components/Navbar";
-import Combine from "../components/Combine";
+import Skills from "../components/Skills";
+import Certification from "../components/Certification";
+import Footer from "../components/Footer";
+import Avatar from "../components/Avatar";
+import Experience from "../components/Experience";
+import Testimonials from "../components/Testimonials";
+import Resume from "../components/Resume";
 
 const Home = () => {
   return (
-    <div className="App">
-      <div className="relative">   
-      
-            <div class="sticky top-0 ">
+    <>
+      <Sidebar />
+      <div className="relative md:ml-64 ">
 
-              <Navbar />
-            </div>
-            
-       
-            <Combine />
-            </div>
+        <div className="App">
+          <div className="flex flex-col justify-center ">
+            <Navbar />
+
+            <Avatar />
+
+            <Skills />
+
+            <Certification />
+
+            <Experience />
+
+            <Testimonials />
+
+            <Resume />
+
+            <Footer />
+          </div>
         </div>
-      
+
+
+      </div>
+    </>
   );
 };
 

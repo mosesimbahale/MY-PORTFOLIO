@@ -3,7 +3,7 @@ import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
-function Resume () {
+function Resume() {
 
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -13,20 +13,29 @@ function Resume () {
   }
 
   return (
+<>
+
+    <div className='bg-gray-900 p-10 text-white flex flex-col justify-center'>
+
+<h2 class="text-2xl font-bold text-center text-gray-400 m-5">Resume</h2>
+
+      <div mx-20>
+      <Document file="./Moses's Resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+        <Page pageNumber={pageNumber} />
+      </Document>
+      </div>
+
+      <p className='text-sm  text-center text-gray-400 m-5'>
+        Page {pageNumber} of {numPages}
+      </p>
 
 
-    <div>
-    <Document file="../src/assets/doc/Moses's Resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-      <Page pageNumber={pageNumber} />
-    </Document>
-    <p>
-      Page {pageNumber} of {numPages}
-    </p>
-  </div>
+    </div>
 
 
+<div className='bg-white text-center p-40'><p>Download file icon</p></div>
 
-
+</>
   )
 };
 

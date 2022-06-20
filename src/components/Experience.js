@@ -15,8 +15,10 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Experience = () => {
   return (
-    <div class="bg-gray-900">
- 
+    <div class="bg-gray-900 text-black py-10">
+        
+<h2 class="text-center text-2xl font-bold m-5 text-white">My Experience</h2>
+
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -35,8 +37,12 @@ const Experience = () => {
               Management, Team Leading
             </p>
           </VerticalTimelineElement>
+
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2010 - 2011"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<MdOutlineWork />}
@@ -50,8 +56,12 @@ const Experience = () => {
               Marketing
             </p>
           </VerticalTimelineElement>
+
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2008 - 2010"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<MdOutlineWork />}
@@ -62,8 +72,12 @@ const Experience = () => {
             </h4>
             <p>User Experience, Visual Design</p>
           </VerticalTimelineElement>
+
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2006 - 2008"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<MdOutlineWork />}
@@ -74,10 +88,14 @@ const Experience = () => {
             </h4>
             <p>User Experience, Visual Design</p>
           </VerticalTimelineElement>
+
+
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="April 2013"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            iconStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
             icon={<IoMdSchool />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -88,10 +106,14 @@ const Experience = () => {
             </h4>
             <p>Strategy, Social Media</p>
           </VerticalTimelineElement>
+
+
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="November 2012"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            iconStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
             icon={<IoMdSchool />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -102,10 +124,14 @@ const Experience = () => {
             </h4>
             <p>Creative Direction, User Experience, Visual Design</p>
           </VerticalTimelineElement>
+
+
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2002 - 2006"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            iconStyle={{ background: "black", color: "white" }}
             icon={<IoMdSchool />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -116,8 +142,10 @@ const Experience = () => {
             </h4>
             <p>Creative Direction, Visual Design</p>
           </VerticalTimelineElement>
+
+          
           <VerticalTimelineElement
-            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+            iconStyle={{ background: "black", color: "#fff" }}
             icon={<AiFillStar />}
           />
         </VerticalTimeline>
