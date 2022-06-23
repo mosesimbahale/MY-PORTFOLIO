@@ -6,7 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ProjectsWeb from "./pages/ProjectsWeb";
 import Projects from "./pages/Projects";
-import ErrorPage from "./pages/ErrorPage";
+import ErrorPage from "./pages/errorPage";
 import ProjectsDS from "./pages/ProjectsDS";
 import ProjectsML from "./pages/ProjectsML";
 import ProjectsMobile from "./pages/ProjectsMobile";
@@ -24,7 +24,7 @@ function App() {
         <Route path="/ProjectsML" element={<ProjectsML />} />
         <Route path="/ProjectsMobile" element={<ProjectsMobile />} />
 
-        <Route path="*" element={<ErrorPage />} />
+        <Route path="*" element={<errorPage />} />
       </Routes>
     </>
   );
