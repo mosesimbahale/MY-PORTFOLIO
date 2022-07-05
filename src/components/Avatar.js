@@ -35,7 +35,6 @@ const Avatar = () => {
                   </div>
 </div>
 
-
    
      <p class="mt-4 text-left "> 
      I have been practicing Software Engineering in the past 4 years buy 
