@@ -1,0 +1,15 @@
+.post p {
+    @apply my-2 text-sm
+}
+
+.post h1 {
+    @apply my-2 text-5xl text-pink-600 font-extrabold
+}
+
+.post h2 {
+    @apply my-2 text-3xl text-pink-600 font-extrabold
+}
+
+.post ul {
+    @apply my-2 text-sm
+}
