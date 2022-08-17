@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 //Icons
-import {MdOutlineWork} from 'react-icons/md';
-import {IoMdSchool} from 'react-icons/io';
-import {AiFillStar} from 'react-icons/ai';
+import { MdOutlineWork } from "react-icons/md";
+import { IoMdSchool } from "react-icons/io";
+import { AiFillStar } from "react-icons/ai";
 
 //Vertical Timeline
 import {
@@ -11,127 +12,119 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-
-
 const Experience = () => {
   return (
-    <div class="bg-gray-900  py-10 mx-24">
+    <div class="bg-gray-800  py-20 my-20 lg:mx-24 rounded-2xl ">
+      <h2 class="text-center text-2xl font-bold mb-20  text-orange-400">
+        My Experience
+      </h2>
 
-      
-<div className="flex flex-wrap justify-center pb-10  ">
-      <svg width="51" height="51" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 15.2929C5.68342 14.9024 6.31658 14.9024 6.70711 15.2929L16 24.5858L25.2929 15.2929C25.6834 14.9024 26.3166 14.9024 26.7071 15.2929C27.0976 15.6834 27.0976 16.3166 26.7071 16.7071L16.7071 26.7071C16.3166 27.0976 15.6834 27.0976 15.2929 26.7071L5.29289 16.7071C4.90237 16.3166 4.90237 15.6834 5.29289 15.2929Z" fill="#0007AF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L16 14.5858L25.2929 5.29289C25.6834 4.90237 26.3166 4.90237 26.7071 5.29289C27.0976 5.68342 27.0976 6.31658 26.7071 6.70711L16.7071 16.7071C16.3166 17.0976 15.6834 17.0976 15.2929 16.7071L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#0007AF"/>
-</svg>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          contentStyle={{ background: "#fb923c", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb( 251,146,60 )" }}
+          date="2018 - 2022"
+          iconStyle={{ background: "#fb923c", color: "white" }}
+          icon={<IoMdSchool />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Bachelor of Science in Software Development
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">KCA UNIERSITY</h4>
+          <p>Nairobi, Kenya</p>
+        </VerticalTimelineElement>
 
-</div>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          contentStyle={{ background: "#fb923c", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb( 251,146,60 )" }}
+          date="2020 - Present"
+          iconStyle={{ background: "#fb923c", color: "#fff" }}
+          icon={<IoMdSchool />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Master Agile Development Scrum
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Projects</h4>
+          <p>Personal projects</p>
+        </VerticalTimelineElement>
 
-        
-<h2 class="text-center text-2xl font-bold mb-20  text-white">My Experience</h2>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#fb923c", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb( 251,146,60 )" }}
+          date="2022 - present"
+          iconStyle={{ background: "#fb923c", color: "#fff" }}
+          icon={<MdOutlineWork />}
+        >
+          <h3 className="vertical-timeline-element-title">Attachment</h3>
+          <h4 className="vertical-timeline-element-subtitle">Kadana</h4>
+          <p>Nairobi, Kenya</p>
+        </VerticalTimelineElement>
 
-        <VerticalTimeline>
-        
-    
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#fb923c", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb( 251,146,60 )" }}
+          date="2022 - 2023"
+          iconStyle={{ background: "#fb923c", color: "#fff" }}
+          icon={<MdOutlineWork />}
+        >
+          <h3 className="vertical-timeline-element-title">Developer intern</h3>
+          <h4 className="vertical-timeline-element-subtitle">Kadana</h4>
+          <p>Nairobi, Kenya</p>
+        </VerticalTimelineElement>
 
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#fb923c", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb( 251,146,60 )" }}
+          date="2022 - 2023"
+          iconStyle={{ background: "#fb923c", color: "#fff" }}
+          icon={<MdOutlineWork />}
+        >
+          <h3 className="vertical-timeline-element-title">TensorflowJs</h3>
+          <h4 className="vertical-timeline-element-subtitle">Online</h4>
+          <p>Nairobi, Kenya</p>
+        </VerticalTimelineElement>
 
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2018 - 2022"
-            iconStyle={{ background: "black", color: "white" }}
-            icon={<IoMdSchool />}
+        <VerticalTimelineElement
+          iconStyle={{ background: "#fb923c", color: "#fff" }}
+          icon={<AiFillStar />}
+        />
+      </VerticalTimeline>
+
+      <div className="flex justify-center pt-20">
+        <Link to="/certifications">
+          <button
+            type="button"
+            class=" shadow-lg  shadow-orange-500/50 inline-flex items-center flex-justify-between mx-20 my-10 px-6 py-3 bg-orange-500 text-white font-medium  leading-tight rounded-3xl hover:bg-orange-300  focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
           >
-            <h3 className="vertical-timeline-element-title">
-              Bachelor of Science in Software Development
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              KCA UNIERSITY
-            </h4>
-            <p>Nairobi, Kenya</p>
-          </VerticalTimelineElement>
-
-
-
-        
-
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2020 - Present"
-            iconStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
-            icon={<IoMdSchool />}
-          >
-            <h3 className="vertical-timeline-element-title">
-            Master Agile Development Scrum 
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Projects
-            </h4>
-            <p>Personal projects</p>
-          </VerticalTimelineElement>
-
-
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2022 - present"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<MdOutlineWork />}
-          >
-            <h3 className="vertical-timeline-element-title">Attachment</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Kadana
-            </h4>
-            <p>Nairobi, Kenya</p>
-          </VerticalTimelineElement>
-
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2022 - 2023"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<MdOutlineWork />}
-          >
-            <h3 className="vertical-timeline-element-title">Developer intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Kadana
-            </h4>
-            <p>Nairobi, Kenya</p>
-          </VerticalTimelineElement>
-
-
-          
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2022 - 2023"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<MdOutlineWork />}
-          >
-            <h3 className="vertical-timeline-element-title">TensorflowJs</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Online
-            </h4>
-            <p>Nairobi, Kenya</p>
-          </VerticalTimelineElement>
-
-
-
-          
-          <VerticalTimelineElement
-            iconStyle={{ background: "black", color: "#fff" }}
-            icon={<AiFillStar />}
-          />
-        </VerticalTimeline>
- 
+            <span className="px-2"> My Certifications</span>
+            <svg
+              width="23"
+              height="23"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M24.7071 7.29289C25.0976 7.68342 25.0976 8.31658 24.7071 8.70711L8.70711 24.7071C8.31658 25.0976 7.68342 25.0976 7.29289 24.7071C6.90237 24.3166 6.90237 23.6834 7.29289 23.2929L23.2929 7.29289C23.6834 6.90237 24.3166 6.90237 24.7071 7.29289Z"
+                fill="white"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M10 8C10 7.44772 10.4477 7 11 7H24C24.5523 7 25 7.44772 25 8V21C25 21.5523 24.5523 22 24 22C23.4477 22 23 21.5523 23 21V9H11C10.4477 9 10 8.55228 10 8Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };

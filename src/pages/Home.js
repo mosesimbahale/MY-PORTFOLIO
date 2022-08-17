@@ -1,12 +1,11 @@
 //common imports
 import React from "react";
-import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 
 
 //components imports
 import Skills from "../components/Skills";
-import Certification from "../components/Certification";
+
 import Footer from "../components/Footer";
 import Avatar from "../components/Avatar";
 import Experience from "../components/Experience";
@@ -22,14 +21,12 @@ const Home = () => {
       <div className=" ">
 
         <div className="App">
-          <div className="flex flex-col justify-center ">
+          <div className=" bg-gradient-to-r from-gray-900 via-gray-600 to-orange-300 ">
             <Navbar />
 
             <Avatar />
 
             <Skills />
-
-            <Certification />
 
             <Experience />
 

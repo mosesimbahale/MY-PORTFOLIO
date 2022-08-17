@@ -10,20 +10,18 @@ import ErrorPage from "./pages/ErrorPage";
 import ProjectsDS from "./pages/ProjectsDS";
 import ProjectsML from "./pages/ProjectsML";
 import ProjectsMobile from "./pages/ProjectsMobile";
-
-import Blog from "./pages/Blog";
+import Certifications from "./pages/Certifications";
 
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
-
 function App() {
   return (
     <>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="resume" element={<Resume />} />
+        <Route path="certifications" element={<Certifications />} />
 
         <Route path="/Projects" element={<Projects />} />
         <Route path="/ProjectsWeb" element={<ProjectsWeb />} />
@@ -31,10 +29,7 @@ function App() {
         <Route path="/ProjectsML" element={<ProjectsML />} />
         <Route path="/ProjectsMobile" element={<ProjectsMobile />} />
 
-        <Route path ="/blog" element={<Blog />} />
-        <Route path ="/contact" element={<Contact />} />
-
-
+        <Route path="/contact" element={<Contact />} />
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>

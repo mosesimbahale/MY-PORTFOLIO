@@ -14,7 +14,7 @@ import { FaGithub } from "react-icons/fa";
 const today = new Date();
 const Projects = () => {
   return (
-    <div className="App">
+    <div className="bg-gradient-to-r from-gray-900 via-gray-600 to-orange-300">
       <Navbar />
 
       <div className=" pt-20 border-b border-gray-400 ">
