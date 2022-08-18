@@ -26,7 +26,7 @@ const Certifications = () => {
   return (
     <>
       <Navbar />
-      <section className="bg-gradient-to-r from-gray-900 via-gray-600 to-orange-300">
+      <section className="bg-gradient-to-r from-gray-900 via-gray-600 to-orange-300 min-h-screen">
         <div>
           {" "}
           <div className="flex flex-wrap  pb-10 opacity-5">
@@ -64,7 +64,7 @@ const Certifications = () => {
           <Slider>
             <Slide index={0}>
               <div className="flex flex-row  items-center">
-                <div class="w-full flex justify-center ">
+                <div class="w-full flex justify-center mb-10 ">
                   <div class="block rounded-lg shadow-2xl bg-gray-800  text-center shadow-gray-500/50 p-4">
                     <div class="py-4 px-8 m-2 border-b border-orange-300 text-white">
                       CodeCademy
@@ -85,14 +85,15 @@ const Certifications = () => {
                       </div>
                     </div>
 
-                    <div class="py-3 px-6 border-t border-orange-300 text-white">
+                    <div class="py-3 px-6 border-t border-orange-300 text-white ">
                       3 years ago
                     </div>
                   </div>
                 </div>
 
-                <div className="ml-2">
+                <div className="">
                   <ButtonNext className="inline">
+  
                     <svg
                       width="51"
                       height="51"
@@ -104,9 +105,11 @@ const Certifications = () => {
                         fill-rule="evenodd"
                         clip-rule="evenodd"
                         d="M11.2929 5.29289C11.6834 4.90237 12.3166 4.90237 12.7071 5.29289L22.7071 15.2929C23.0976 15.6834 23.0976 16.3166 22.7071 16.7071L12.7071 26.7071C12.3166 27.0976 11.6834 27.0976 11.2929 26.7071C10.9024 26.3166 10.9024 25.6834 11.2929 25.2929L20.5858 16L11.2929 6.70711C10.9024 6.31658 10.9024 5.68342 11.2929 5.29289Z"
-                        fill="#0007AF"
+                        fill="#c2410c"
                       />
                     </svg>
+
+
                   </ButtonNext>
                 </div>
               </div>
@@ -127,10 +130,11 @@ const Certifications = () => {
                         fill-rule="evenodd"
                         clip-rule="evenodd"
                         d="M20.7071 5.29289C21.0976 5.68342 21.0976 6.31658 20.7071 6.70711L11.4142 16L20.7071 25.2929C21.0976 25.6834 21.0976 26.3166 20.7071 26.7071C20.3166 27.0976 19.6834 27.0976 19.2929 26.7071L9.29289 16.7071C8.90237 16.3166 8.90237 15.6834 9.29289 15.2929L19.2929 5.29289C19.6834 4.90237 20.3166 4.90237 20.7071 5.29289Z"
-                        fill="#0007AF"
+                        fill="#fbbf24"
                       />
                     </svg>
                   </ButtonBack>
+
                 </div>
 
                 <div class="w-full flex justify-center ">
@@ -171,7 +175,7 @@ const Certifications = () => {
                         fill-rule="evenodd"
                         clip-rule="evenodd"
                         d="M11.2929 5.29289C11.6834 4.90237 12.3166 4.90237 12.7071 5.29289L22.7071 15.2929C23.0976 15.6834 23.0976 16.3166 22.7071 16.7071L12.7071 26.7071C12.3166 27.0976 11.6834 27.0976 11.2929 26.7071C10.9024 26.3166 10.9024 25.6834 11.2929 25.2929L20.5858 16L11.2929 6.70711C10.9024 6.31658 10.9024 5.68342 11.2929 5.29289Z"
-                        fill="#0007AF"
+                        fill="#fbbf24"
                       />
                     </svg>
                   </ButtonNext>
@@ -194,7 +198,7 @@ const Certifications = () => {
                         fill-rule="evenodd"
                         clip-rule="evenodd"
                         d="M20.7071 5.29289C21.0976 5.68342 21.0976 6.31658 20.7071 6.70711L11.4142 16L20.7071 25.2929C21.0976 25.6834 21.0976 26.3166 20.7071 26.7071C20.3166 27.0976 19.6834 27.0976 19.2929 26.7071L9.29289 16.7071C8.90237 16.3166 8.90237 15.6834 9.29289 15.2929L19.2929 5.29289C19.6834 4.90237 20.3166 4.90237 20.7071 5.29289Z"
-                        fill="#0007AF"
+                        fill="#fbbf24"
                       />
                     </svg>
                   </ButtonBack>
@@ -227,24 +231,7 @@ const Certifications = () => {
                   </div>
                 </div>
 
-                <div className="ml-2">
-                  <ButtonNext className="inline">
-                    <svg
-                      width="51"
-                      height="51"
-                      viewBox="0 0 32 32"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M11.2929 5.29289C11.6834 4.90237 12.3166 4.90237 12.7071 5.29289L22.7071 15.2929C23.0976 15.6834 23.0976 16.3166 22.7071 16.7071L12.7071 26.7071C12.3166 27.0976 11.6834 27.0976 11.2929 26.7071C10.9024 26.3166 10.9024 25.6834 11.2929 25.2929L20.5858 16L11.2929 6.70711C10.9024 6.31658 10.9024 5.68342 11.2929 5.29289Z"
-                        fill="#0007AF"
-                      />
-                    </svg>
-                  </ButtonNext>
-                </div>
+          
               </div>
             </Slide>
           </Slider>

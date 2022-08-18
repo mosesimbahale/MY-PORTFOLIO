@@ -36,15 +36,12 @@ const Navbar = () => {
             <div className=" flex flex-inline">
               <div class="w-full md:w-auto px-4">
                 <div class="flex items-start flex-wrap">
-                  <Link to="/projects" class=" py-3 px-3 mr-1  font-bold  ">
-                    <p>Projects</p>
-                  </Link>
 
                   <Link
-                    to="/contact"
+                    to="/projects"
                     class=" py-3 px-3 mr-1  font-bold bg-orange-500 rounded-full  "
                   >
-                    <p>Contact</p>
+                    <p>Projects</p>
                   </Link>
                 </div>
               </div>
@@ -61,12 +58,15 @@ const Navbar = () => {
       {/* SIDE  NAVIGATION BAR SOCIAL ICONS  */}
       <section className="fixed top-24 right-0  w-16 bg-gray-700 z-50 shadow-2xl rounded-xl -mr-2  shadow-orange-500/50 h-88 ">
         <div className="flex flex-wrap justify-between rounded-t-xl">
-          <div className=" hover:bg-gray-900  px-3 rounded-xl ">
-            <a
+        
+        
+        <a
               href="https://github.com/mosesimbahale"
               target="blank"
-              className="p-2"
+              className=""
             >
+          <div className=" hover:bg-gray-900  p-3 rounded-xl ">
+  
               <svg
                 width="24"
                 height="24"
@@ -83,11 +83,14 @@ const Navbar = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-            </a>
+           
           </div>
+          </a>
 
-          <div className=" hover:bg-gray-900  px-3 rounded-xl">
-            <Link to="/" className="p-2">
+
+          <a href= "https://www.linkedin.com/in/moses-imbahale/" target = "blank">
+          <div className=" hover:bg-gray-900  p-3 rounded-xl">
+            <div className="">
               <svg
                 width="24"
                 height="24"
@@ -102,11 +105,15 @@ const Navbar = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-            </Link>
+            </div>
           </div>
+          </a>
 
-          <div className="  hover:bg-gray-900  px-3 rounded-xl">
-            <Link to="/" className="p-2">
+
+          
+          <a href= "https://twitter.com/Moses11113538" target = "blank">
+          <div className="  hover:bg-gray-900  p-3 rounded-xl">
+            <div className="">
               <svg
                 width="24"
                 height="24"
@@ -121,8 +128,10 @@ const Navbar = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-            </Link>
+            </div>
           </div>
+          </a>
+
 
 
         </div>

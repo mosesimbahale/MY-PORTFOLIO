@@ -4,36 +4,29 @@ import { Routes, Route } from "react-router-dom";
 
 //Pages imports
 import Home from "./pages/Home";
-import ProjectsWeb from "./pages/ProjectsWeb";
+
 import Projects from "./pages/Projects";
 import ErrorPage from "./pages/ErrorPage";
-import ProjectsDS from "./pages/ProjectsDS";
-import ProjectsML from "./pages/ProjectsML";
-import ProjectsMobile from "./pages/ProjectsMobile";
+
 import Certifications from "./pages/Certifications";
 
 import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="resume" element={<Resume />} />
         <Route path="certifications" element={<Certifications />} />
 
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/ProjectsWeb" element={<ProjectsWeb />} />
-        <Route path="/ProjectsDS" element={<ProjectsDS />} />
-        <Route path="/ProjectsML" element={<ProjectsML />} />
-        <Route path="/ProjectsMobile" element={<ProjectsMobile />} />
 
-        <Route path="/contact" element={<Contact />} />
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

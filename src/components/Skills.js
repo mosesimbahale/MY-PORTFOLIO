@@ -17,7 +17,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiMaterialui } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
 
-import {SiNextdotjs} from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 import { DiPhp } from "react-icons/di";
 
@@ -51,23 +51,6 @@ const Header = () => {
                 aria-label="group of cards"
                 className="focus:outline-none mt-20 flex flex-wrap justify-center gap-10 px-4"
               >
-               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               
                 <div
                   tabIndex={0}
                   aria-label="card 1"
@@ -76,9 +59,7 @@ const Header = () => {
                   <div className="w-20 h-20 relative mr-5 ">
                     <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
                     <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-               
                       <BsCodeSlash className="w-8 h-8" />
-
                     </div>
                   </div>
 
@@ -98,7 +79,7 @@ const Header = () => {
                       components and create the ones you need.
                     </p>
 
-                    <Link to="/ProjectsMobile">
+                    <Link to="/projects">
                       <button
                         type="button"
                         class=" inline-flex items-center flex-justify-between mx-20 my-10 px-6 py-3 bg-orange-400 shadow-lg shadow-orange-500/50 text-white font-medium  leading-tight rounded-3xl hover:bg-orange-300  focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
@@ -129,53 +110,26 @@ const Header = () => {
                   </div>
                 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div
+                <div
                   tabIndex={0}
                   aria-label="card 1"
                   className="focus:outline-none flex sm:w-full md:w-5/12 p-10  bg-gray-800 rounded-2xl shadow-2xl  "
                 >
                   <div className="flex-col ">
-                  <div className="w-20 h-20 relative mr-5 ">
-                    <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
-                    <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-               
-                      <FaAndroid className="w-9 h-8" />
+                    <div className="w-20 h-20 relative mr-5 ">
+                      <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
+                      <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                        <FaAndroid className="w-9 h-8" />
+                      </div>
+                    </div>
 
+                    <div className="w-20 h-20 relative mr-5 ">
+                      <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
+                      <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                        <FaApple className="w-8 h-8" />
+                      </div>
                     </div>
                   </div>
-
-                  <div className="w-20 h-20 relative mr-5 ">
-                    <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
-                    <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-               
-                      <FaApple  className="w-8 h-8"/>
-
-
-                    </div>
-                  </div>
-
-                  </div>
-
-
 
                   <div className="w-10/12">
                     <h2
@@ -193,7 +147,7 @@ const Header = () => {
                       components and create the ones you need.
                     </p>
 
-                    <Link to="/ProjectsMobile">
+                    <Link to="/projects">
                       <button
                         type="button"
                         class=" inline-flex items-center flex-justify-between mx-20 my-10 px-6 py-3 bg-orange-400 shadow-lg shadow-orange-500/50 text-white font-medium  leading-tight rounded-3xl hover:bg-orange-300  focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
@@ -224,28 +178,6 @@ const Header = () => {
                   </div>
                 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               
                 <div
                   tabIndex={0}
                   aria-label="card 1"
@@ -254,9 +186,7 @@ const Header = () => {
                   <div className="w-20 h-20 relative mr-5 ">
                     <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
                     <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-               
                       <BsCodeSlash className="w-8 h-8" />
-
                     </div>
                   </div>
 
@@ -276,7 +206,7 @@ const Header = () => {
                       components and create the ones you need.
                     </p>
 
-                    <Link to="/ProjectsMobile">
+                    <Link to="/projects">
                       <button
                         type="button"
                         class=" inline-flex items-center flex-justify-between mx-20 my-10 px-6 py-3 bg-orange-400 shadow-lg shadow-orange-500/50 text-white font-medium  leading-tight rounded-3xl hover:bg-orange-300  focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
@@ -307,51 +237,26 @@ const Header = () => {
                   </div>
                 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               
                 <div
                   tabIndex={0}
                   aria-label="card 1"
                   className="focus:outline-none flex sm:w-full md:w-5/12 p-10  bg-gray-800 rounded-2xl shadow-2xl  "
                 >
-
                   <div className="flex-col">
-                  <div className="w-20 h-20 relative mr-5 ">
-                    <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
-                    <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-               
-                      <MdDataExploration className="w-8 h-8" />
+                    <div className="w-20 h-20 relative mr-5 ">
+                      <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
+                      <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                        <MdDataExploration className="w-8 h-8" />
+                      </div>
+                    </div>
 
+                    <div className="w-20 h-20 relative mr-5 ">
+                      <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
+                      <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                        <GiVintageRobot className="w-8 h-8" />
+                      </div>
                     </div>
                   </div>
-
-                  <div className="w-20 h-20 relative mr-5 ">
-                    <div className="absolute top-0 right-0 bg-orange-300 rounded w-16 h-16 mt-2 mr-1" />
-                    <div className="absolute text-white bottom-0 left-0 bg-orange-500 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-               
-                      <GiVintageRobot className="w-8 h-8" />
-
-                    </div>
-                  </div>
-                  </div>
-
-
 
                   <div className="w-10/12">
                     <h2
@@ -369,7 +274,7 @@ const Header = () => {
                       components and create the ones you need.
                     </p>
 
-                    <Link to="/ProjectsMobile">
+                    <Link to="/projects">
                       <button
                         type="button"
                         class=" inline-flex items-center flex-justify-between mx-20 my-10 px-6 py-3 bg-orange-400 shadow-lg shadow-orange-500/50 text-white font-medium  leading-tight rounded-3xl hover:bg-orange-300  focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
@@ -399,50 +304,6 @@ const Header = () => {
                     </Link>
                   </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </div>
             </div>
           </section>
@@ -450,17 +311,9 @@ const Header = () => {
         {/* Code block ends */}
       </div>
 
-
-
-
-
-{/*The STACK SECTION */}
-
+      {/*The STACK SECTION */}
 
       <section class=" pb-20 pt-5  lg:mx-24 text-white  bg-gray-800 rounded-2xl ">
-
-
-
         <h2 class="text-4xl font-bold text-center text-orange-400 m-5">
           My stack
         </h2>
@@ -469,9 +322,10 @@ const Header = () => {
           <p>My stack</p>
           <p>
             React, NextJs, Firebase, Node.js, Express, MongoDB, Bootstrap,
-            TailwindCSS and MaterialUI among many others. I am flexible and always ready to learn new stacks, this is 
-            one of my major strengths as a developer... i.e I am able to adapt to new technologies quickly in an 
-            effective and efficient way.
+            TailwindCSS and MaterialUI among many others. I am flexible and
+            always ready to learn new stacks, this is one of my major strengths
+            as a developer... i.e I am able to adapt to new technologies quickly
+            in an effective and efficient way.
           </p>
 
           <div className="flex flex-wrap py-10 max-w-2lg justify-between bg-gray-500 p-2 mt-10 rounded-2xl">
@@ -487,10 +341,6 @@ const Header = () => {
             <DiPhp size="50px" color="#1d4ed8" />
           </div>
         </div>
-
-      
-
-
       </section>
     </>
   );
