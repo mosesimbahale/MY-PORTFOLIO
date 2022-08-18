@@ -90,7 +90,7 @@ const Projects = () => {
                     class=" inline-block px-6 py-2.5 bg-orange-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-orange-700 hover:shadow-lg focus:bg-orange-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-600 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     <a
-                      href="https://github.com/mosesimbahale/machineLearning/blob/main/positon_salary_predictor0.ipynb"
+                      href="https://github.com/mosesimbahale"
                       target="blank"
                     >
                       <div className="flex  flex-row">
@@ -165,7 +165,7 @@ const Projects = () => {
                     class=" inline-block px-6 py-2.5 bg-orange-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-orange-700 hover:shadow-lg focus:bg-orange-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-600 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     <a
-                      href="https://github.com/mosesimbahale/machineLearning/blob/main/positon_salary_predictor0.ipynb"
+                      href="https://github.com/mosesimbahale"
                       target="blank"
                     >
                       <div className="flex  flex-row">
